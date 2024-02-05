@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.scss'
 
 function Home() {
   return (
@@ -6,7 +7,7 @@ function Home() {
           <div className='back'>
           <img src="./back2x.png" alt=""/>  
           </div>          
-          <div className='text'>
+          <div className='content'>
             <h2>Creating seamless digital journeys...</h2>
             <div className='intro'>
               <p>Adesina Sofiat</p>

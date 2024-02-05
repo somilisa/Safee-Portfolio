@@ -1,0 +1,18 @@
+.back{
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    top:0;
+    z-index: -1;
+    /* background: url("../public/back2x.png"); */
+  }
+  .back img{
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .intro{
+  font-family: "Crimson Text";
+  margin-top: 6rem;
+  font-size: 24px;}

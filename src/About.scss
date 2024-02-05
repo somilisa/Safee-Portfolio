@@ -1,0 +1,33 @@
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    // gap: 200px;
+}
+.bio{
+    // flex: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bio-text{
+    font-size: 36px;
+    margin-top: 60px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    // flex: 30%;
+}
+.profile-picture{
+    width: 443px;
+    height: 448px;
+    margin-bottom: 4rem;
+
+}
+#swirls{
+position: absolute;
+}
+#image{
+    width: 100%;
+    object-fit: contain;
+}
