@@ -1,11 +1,12 @@
 import React from 'react'
 import './Home.scss'
+import back from './Assets/back2x.png'
 
 function Home() {
   return (
 <section>
           <div className='back'>
-          <img src="./back2x.png" alt=""/>  
+          <img src={back} alt=""/>  
           </div>          
           <div className='content'>
             <h2>Creating seamless digital journeys...</h2>

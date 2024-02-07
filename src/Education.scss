@@ -1,9 +1,17 @@
+.education-back{
+    position: absolute;
+    width: 452px;
+    right: 0;
+}
+.education-back img{
+    object-fit: contain;
+    width: 100%;
+}
 .education-content{
     display: flex;
     justify-content: space-between;
 }
 .education ul, .skills ul{
-    margin-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 62px;

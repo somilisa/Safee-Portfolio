@@ -1,7 +1,7 @@
 .about-content{
     display: flex;
     justify-content: space-between;
-    // gap: 200px;
+    gap: 60px;
 }
 .bio{
     // flex: 30%;
@@ -11,23 +11,20 @@
 }
 .bio-text{
     font-size: 36px;
-    margin-top: 60px;
 }
 .profile{
     display: flex;
     flex-direction: column;
+    position: relative;
     // flex: 30%;
 }
 .profile-picture{
     width: 443px;
     height: 448px;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 
 }
-#swirls{
-position: absolute;
-}
-#image{
+.profile-picture img{
     width: 100%;
     object-fit: contain;
 }
