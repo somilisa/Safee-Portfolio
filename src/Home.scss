@@ -14,5 +14,19 @@
  
   .intro{
   font-family: "Crimson Text";
-  margin-top: 6rem;
   font-size: 24px;}
+
+  .contact-links li{
+    list-style: none;
+  }
+
+.back_2{
+  width: 777px;
+  height: 630px;
+  position: absolute;
+  left: -551px;
+}
+.back_2 img{
+  width: 100%;
+  object-fit: contain; 
+}

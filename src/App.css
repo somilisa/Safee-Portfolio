@@ -25,6 +25,7 @@ margin: 0 auto;
 h2{
 font-size: 96px;
 font-weight: 700;
+margin-bottom: 6rem;
 }
 h3{
   font-size: 80px;
@@ -59,7 +60,7 @@ hr{
   margin: 0 auto;
 }
 
-.contact-info a{
+a{
   color: var(--text);
   text-decoration: none;
   font-size: 36px;

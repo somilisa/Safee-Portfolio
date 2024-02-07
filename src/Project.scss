@@ -1,5 +1,6 @@
 .project-wrapper{
-    padding: 21px 0 0 30px;
+    width: 450px;
+    height: 450px;
     position: relative;
 }
 .project-image{
@@ -7,6 +8,9 @@
     width: 90%;
     margin: 0 auto;
 
+}
+header{
+    margin: 21px 0 0 30px;
 }
 .project-image img{
     object-fit: contain;
