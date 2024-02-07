@@ -29,6 +29,7 @@ font-weight: 700;
 h3{
   font-size: 80px;
   font-weight: 600;
+  margin-bottom: 60px;
 }
 .content{
   padding: 120px 0;
@@ -50,11 +51,12 @@ hr{
 }
 
 .contact-info button{
-    background-color: var(--buttons);
-    padding: 15px 5px;
-   border: transparent;
-   border-radius: 30px;
-   width: 95%;
+  background-color: var(--buttons);
+  padding: 15px 5px;
+  border: transparent;
+  border-radius: 40px;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .contact-info a{
