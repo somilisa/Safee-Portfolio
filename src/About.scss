@@ -14,7 +14,7 @@
   justify-content: center;
 }
 .bio-text {
-  font-size: 36px;
+  font-size: clamp(24px, 16px + 1vw, 36px);
 }
 .profile {
   display: flex;
