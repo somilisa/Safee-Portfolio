@@ -1,21 +1,24 @@
-import React from 'react'
-import './Project.scss'
+import React from "react";
+import "./Project.scss";
 
-function Project({background,image,title,description,link}) {
+function Project({ background, image, title, description, link }) {
   return (
-    <div className='project-wrapper' style={{
+    <div
+      className="project-card"
+      style={{
         background,
-        borderRadius: 35.36,
-    }}
-    ><header>
+        borderRadius: 35,
+      }}
+    >
+      <header className="project-header">
         <h4>{title}</h4>
         <p>{description}</p>
-    </header>
-    <div className='project-image'>
+      </header>
+      <div className="project-image">
         <img src={image} alt="" />
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Project
+export default Project;
