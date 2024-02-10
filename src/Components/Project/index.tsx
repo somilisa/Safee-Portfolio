@@ -1,7 +1,15 @@
 import React from "react";
-import "./Project.scss";
+import "./style.scss";
 
-function Project({ background, image, title, description, link }) {
+interface Props {
+  background: string;
+  imageUrl: string;
+  title: string;
+  description?: string;
+  link?: string;
+}
+
+function Project({ background, imageUrl, title, description, link }: Props) {
   return (
     <div
       className="project-card"
@@ -15,7 +23,7 @@ function Project({ background, image, title, description, link }) {
         <p>{description}</p>
       </header>
       <div className="project-image">
-        <img src={image} alt="" />
+        <img src={imageUrl} alt="" />
       </div>
     </div>
   );

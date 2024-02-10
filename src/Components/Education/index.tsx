@@ -1,5 +1,5 @@
 import React from "react";
-import "./Education.scss";
+import "./style.scss";
 import back from "../../Assets/education-bg.png";
 
 function Education() {

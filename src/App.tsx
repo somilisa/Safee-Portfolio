@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Hero from "./Components/Hero/Hero";
-import About from "./Components/About/About";
-import Education from "./Components/Education/Education";
-import Projects from "./Components/Projects/Projects";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import Education from "./Components/Education";
+import Projects from "./Components/Projects";
 
 function App() {
   return (

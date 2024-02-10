@@ -1,10 +1,15 @@
 import React from "react";
-import "./Hero.scss";
+import "./style.scss";
 import back from "../../Assets/hero-bg.png";
 import back2 from "../../Assets/footer-bg.png";
 import arrows from "../../Assets/arrows.png";
 
-function Hero({ title, isHero }) {
+interface Props {
+  title: string;
+  isHero: boolean;
+}
+
+function Hero({ title, isHero }: Props) {
   return (
     <>
       <section>

@@ -1,7 +1,12 @@
 import React from "react";
-import "./Button.scss";
+import "./style.scss";
 
-function Button({ link, text }) {
+interface ButtonProps {
+  link: string;
+  text: string;
+}
+
+function Button({ link, text }: ButtonProps) {
   return (
     <button>
       <a href={link}>{text}</a>
