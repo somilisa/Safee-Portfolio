@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 import profile from "../../Assets/profile.png";
-import Button from "./Button";
+import Button from "../Button/Button";
 function About() {
   return (
     <>
