@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hero.scss";
-import back from "./Assets/hero-bg.png";
-import back2 from "./Assets/footer-bg.png";
-import arrows from "./Assets/arrows.png";
+import back from "../../Assets/hero-bg.png";
+import back2 from "../../Assets/footer-bg.png";
+import arrows from "../../Assets/arrows.png";
 
 function Hero({ title, isHero }) {
   return (

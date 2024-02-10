@@ -1,12 +1,12 @@
 import React from "react";
 import "./Projects.scss";
-import Project from "./Project";
-import project_1 from "./Assets/project_1.png";
-import project_2 from "./Assets/project_2.png";
-import project_3 from "./Assets/project_3.png";
-import project_4 from "./Assets/project_4.png";
-import project_5 from "./Assets/project_5.png";
-import project_6 from "./Assets/project_6.png";
+import Project from "../Project/Project";
+import project_1 from "../../Assets/project_1.png";
+import project_2 from "../../Assets/project_2.png";
+import project_3 from "../../Assets/project_3.png";
+import project_4 from "../../Assets/project_4.png";
+import project_5 from "../../Assets/project_5.png";
+import project_6 from "../../Assets/project_6.png";
 
 function Projects() {
   return (

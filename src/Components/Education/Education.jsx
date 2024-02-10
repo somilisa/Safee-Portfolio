@@ -1,6 +1,6 @@
 import React from "react";
 import "./Education.scss";
-import back from "./Assets/education-bg.png";
+import back from "../../Assets/education-bg.png";
 
 function Education() {
   return (

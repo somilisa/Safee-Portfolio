@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
-import profile from "./Assets/profile.png";
-
+import profile from "../../Assets/profile.png";
+import Button from "./Button";
 function About() {
   return (
     <>
@@ -23,14 +23,12 @@ function About() {
                 <img src={profile} alt="profile" id="image" />
               </div>
               <div className="contact-info">
-                <button>
-                  <a href="mailto: adesinasafee@gmail.com">
-                    adesinasafee@gmail.com
-                  </a>
-                </button>
-                <button>
-                  <a href="behance.net/Safeeee">behance.net/Safeeee</a>
-                </button>
+                <Button
+                  link="mailto: adesinasafee@gmail.com"
+                  text="adesinasafee@gmail.com"
+                />
+
+                <Button link="behance.net/Safeeee" text="behance.net/Safeeee" />
               </div>
             </div>
           </div>
