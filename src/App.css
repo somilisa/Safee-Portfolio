@@ -43,9 +43,8 @@ hr {
   background: linear-gradient(var(--Icon1) 0%, var(--Icon2) 100%);
 }
 
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
+@media screen and (max-width: 686px) {
+  h3 {
+    margin-bottom: 20px;
+  }
 }

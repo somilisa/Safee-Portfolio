@@ -4,3 +4,8 @@
   justify-items: center;
   gap: 40px;
 }
+@media screen and (max-width: 660px) {
+  .projects-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

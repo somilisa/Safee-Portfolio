@@ -21,7 +21,7 @@
 }
 .education li {
   list-style: none;
-  font-size: clamp(24px, 16px + 1vw, 36px);
+  font-size: clamp(14px, 14px + 1vw, 36px);
   position: relative;
 }
 .education li:not(:last-child):after {
@@ -34,12 +34,12 @@
   top: calc(100% + 8px);
 }
 .skills li {
-  font-size: clamp(24px, 16px + 1vw, 36px);
+  font-size: clamp(14px, 14px + 1vw, 36px);
   padding-left: 46px;
   position: relative;
 }
 .skills li::marker {
-  font-size: 24px;
+  font-size: inherit;
 }
 .skills li:not(:last-child):after {
   content: "";
@@ -49,4 +49,35 @@
   height: 100%;
   left: -16px;
   top: calc(100% + 8px);
+}
+
+@media screen and (max-width: 820px) {
+  .skills li {
+    padding-left: 12px;
+  }
+  .skills li:not(:last-child):after {
+    // left: -15px;
+  }
+  .education ul,
+  .skills ul {
+    gap: 42px;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .skills li {
+    padding-left: 0;
+  }
+  .skills li:not(:last-child):after {
+    // left: -13px;
+  }
+  .education-content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .education-content {
+    gap: 15px;
+  }
 }

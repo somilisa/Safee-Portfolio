@@ -1,11 +1,13 @@
-.contact-info button {
+.mobile-only button,
+.desktop-only button {
   background-color: var(--buttons);
   padding: 15px 25px;
   border: transparent;
   border-radius: 40px;
 }
 
-.contact-info a {
+.mobile-only a,
+.desktop-only a {
   color: var(--text);
   text-decoration: none;
   font-size: clamp(24px, 16px + 1vw, 36px);

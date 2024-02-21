@@ -1,10 +1,11 @@
-.about-heading {
+.about-title {
   text-align: right;
   margin-bottom: 0px;
 }
 .about-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 60px;
 }
 .bio {
@@ -12,6 +13,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.bio-mobile-title {
+  display: none;
 }
 .bio-text {
   font-size: clamp(24px, 16px + 1vw, 36px);
@@ -32,4 +36,43 @@
   height: auto;
   max-height: 100%;
   object-fit: contain;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+@media screen and (max-width: 686px) {
+  .about-title {
+    display: none;
+  }
+  .about-content {
+    flex-direction: column-reverse;
+  }
+  .profile-picture {
+    margin-bottom: 48px;
+  }
+  .bio-mobile-title {
+    display: block;
+    text-align: center;
+  }
+  .bio-desktop-title {
+    display: none;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 25px;
+  }
 }
