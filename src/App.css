@@ -36,11 +36,18 @@ h3 {
 section {
   padding: 120px 0;
   position: relative;
+  @media screen and (max-width: 540px) {
+    padding: 75px 0;
+  }
 }
 hr {
   height: 1px;
   border: none;
   background: linear-gradient(var(--Icon1) 0%, var(--Icon2) 100%);
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  color: var(--text);
 }
 
 @media screen and (max-width: 686px) {
