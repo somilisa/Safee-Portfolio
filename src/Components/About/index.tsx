@@ -2,6 +2,8 @@ import React from "react";
 import "./style.scss";
 import profile from "../../Assets/profile.png";
 import Button from "../Button";
+import email from "../../Assets/Email.svg";
+import search from "../../Assets/Search.svg";
 function About() {
   return (
     <>
@@ -22,9 +24,14 @@ function About() {
                 <Button
                   link="mailto: adesinasafee@gmail.com"
                   text="adesinasafee@gmail.com"
+                  icon="mail"
                 />
 
-                <Button link="behance.net/Safeeee" text="behance.net/Safeeee" />
+                <Button
+                  link="behance.net/Safeeee"
+                  text="behance.net/Safeeee"
+                  icon="search"
+                />
               </div>
             </div>
             <div className="profile">
@@ -35,9 +42,14 @@ function About() {
                 <Button
                   link="mailto: adesinasafee@gmail.com"
                   text="adesinasafee@gmail.com"
+                  icon="mail"
                 />
 
-                <Button link="behance.net/Safeeee" text="behance.net/Safeeee" />
+                <Button
+                  link="behance.net/Safeeee"
+                  text="behance.net/Safeeee"
+                  icon="search"
+                />
               </div>
             </div>
           </div>
