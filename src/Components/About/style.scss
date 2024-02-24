@@ -54,7 +54,7 @@
 }
 
 .desktop-only {
-  @media screen and(max-width: 686px) {
+  @media screen and (max-width: 686px) {
     display: none;
   }
 }
