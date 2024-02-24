@@ -14,12 +14,9 @@
   flex-direction: column;
   justify-content: center;
 }
-.bio-mobile-title {
+.bio-title {
   display: block;
   text-align: center;
-  @media screen and (min-width: 687px) {
-    display: none;
-  }
 }
 .bio-text {
   font-size: clamp(24px, 16px + 1vw, 36px);
@@ -41,23 +38,25 @@
   max-height: 100%;
   object-fit: contain;
 }
-
-.mobile-only {
+.contact-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+}
+.contact-info.mobile-only {
   margin-top: 25px;
+}
+.mobile-only {
   @media screen and (min-width: 687px) {
     display: none;
   }
 }
 
 .desktop-only {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
+  @media screen and(max-width: 686px) {
+    display: none;
+  }
 }
 @media screen and (max-width: 686px) {
   .about-title {
@@ -68,11 +67,5 @@
   }
   .profile-picture {
     margin-bottom: 48px;
-  }
-  .bio-desktop-title {
-    display: none;
-  }
-  .desktop-only {
-    display: none;
   }
 }
