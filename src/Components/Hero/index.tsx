@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
-import back from "../../Assets/hero-bg.png";
-import back2 from "../../Assets/footer-bg.png";
+import back from "../../Assets/hero-bg.svg";
+import back2 from "../../Assets/footer-bg.svg";
 import arrows from "../../Assets/arrows.png";
 
 interface Props {
@@ -24,12 +24,14 @@ function Hero({ title, isHero }: Props) {
             <div className="contact-intro">
               <p>Adesina Sofiat</p>
               {isHero && <p>Product (UI/UX) Designer</p>}
-              <p>adesinasafee@gmail.com</p>
+              <a href="mailto: adesinasafee@gmail.com">
+                adesinasafee@gmail.com
+              </a>
             </div>
             {!isHero && (
               <ul className="contact-links">
-                <li>
-                  <div className="arrows-container">
+                <li className="arrows-container">
+                  <div>
                     <img src={arrows} alt="arrows" />
                   </div>
                 </li>
@@ -54,7 +56,7 @@ function Hero({ title, isHero }: Props) {
           </div>
         )}
       </section>
-      <hr />
+      {isHero && <hr />}
     </>
   );
 }

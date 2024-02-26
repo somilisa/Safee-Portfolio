@@ -1,10 +1,11 @@
-.about-heading {
+.about-title {
   text-align: right;
   margin-bottom: 0px;
 }
 .about-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 60px;
 }
 .bio {
@@ -12,6 +13,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.bio-title {
+  display: block;
+  text-align: center;
 }
 .bio-text {
   font-size: clamp(24px, 16px + 1vw, 36px);
@@ -32,4 +37,35 @@
   height: auto;
   max-height: 100%;
   object-fit: contain;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.contact-info.mobile-only {
+  margin-top: 25px;
+}
+.mobile-only {
+  @media screen and (min-width: 687px) {
+    display: none;
+  }
+}
+
+.desktop-only {
+  @media screen and (max-width: 686px) {
+    display: none;
+  }
+}
+@media screen and (max-width: 686px) {
+  .about-title {
+    display: none;
+  }
+  .about-content {
+    flex-direction: column-reverse;
+  }
+  .profile-picture {
+    margin-bottom: 48px;
+  }
 }

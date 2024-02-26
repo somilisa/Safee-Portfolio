@@ -1,11 +1,14 @@
-.contact-info button {
+.button {
   background-color: var(--buttons);
   padding: 15px 25px;
   border: transparent;
   border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
 }
 
-.contact-info a {
+.button a {
   color: var(--text);
   text-decoration: none;
   font-size: clamp(24px, 16px + 1vw, 36px);
