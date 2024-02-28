@@ -1,5 +1,5 @@
 .about-title {
-  text-align: right;
+  text-align: center;
   margin-bottom: 0px;
 }
 .about-content {
@@ -15,11 +15,12 @@
   justify-content: center;
 }
 .bio-title {
-  display: block;
   text-align: center;
 }
 .bio-text {
   font-size: clamp(24px, 16px + 1vw, 36px);
+  display: block;
+  max-width: 547px;
 }
 .profile {
   display: flex;

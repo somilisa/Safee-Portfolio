@@ -2,17 +2,14 @@ import React from "react";
 import "./style.scss";
 import profile from "../../Assets/profile.png";
 import Button from "../Button";
-import email from "../../Assets/Email.svg";
-import search from "../../Assets/Search.svg";
 function About() {
   return (
     <>
       <section>
         <div className="content">
-          <h2 className="about-title">about me</h2>
           <div className="about-content">
             <div className="bio">
-              <h3 className="bio-title desktop-only">Adesina Sofiat</h3>
+              <h3 className="desktop-only">Adesina Sofiat</h3>
               <h3 className="bio-title mobile-only">Hi! I’m Sofiat</h3>
               <p className="bio-text">
                 I’m an entry level UI/UX designer with 3 years of self taught
@@ -35,6 +32,7 @@ function About() {
               </div>
             </div>
             <div className="profile">
+              <h2 className="about-title">about me</h2>
               <div className="profile-picture">
                 <img src={profile} alt="profile" id="image" />
               </div>
