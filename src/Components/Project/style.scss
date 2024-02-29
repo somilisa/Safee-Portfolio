@@ -1,10 +1,5 @@
-@mixin transform($transforms) {
-  -moz-transform: $transforms;
-  -o-transform: $transforms;
-  -ms-transform: $transforms;
-  -webkit-transform: $transforms;
-  transform: $transforms;
-}
+@import "../../mixin";
+
 .project-card {
   width: 100%;
   height: 40vw;
@@ -27,6 +22,7 @@
 }
 .project-card {
   filter: drop-shadow(2px 4px 6px black);
+  @include transition(0.2s all ease-out);
   &:hover {
     @include transform(scale(1.05));
   }
