@@ -25,22 +25,24 @@
   font-weight: 600;
   line-height: 1;
 }
-.project-card:hover {
-  @include transform(scale(1.05));
-  filter: drop-shadow(2px 4px 6px black);
-}
-.project-card a {
-  text-decoration: none;
-  color: unset;
-}
-.project-card a::after {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+.project-card {
+  &:hover {
+    @include transform(scale(1.05));
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  a {
+    text-decoration: none;
+    color: unset;
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
 }
 .project-header p {
   color: #ffffffb2;

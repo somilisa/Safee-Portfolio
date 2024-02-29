@@ -15,15 +15,15 @@
   align-items: center;
   gap: 13px;
   @include transition(0.2s all ease-out);
-}
 
-.button a {
-  color: var(--text);
-  text-decoration: none;
-  font-size: clamp(24px, 16px + 1vw, 36px);
-  font-family: "Crimson Text", serif;
-}
+  a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: clamp(24px, 16px + 1vw, 36px);
+    font-family: "Crimson Text", serif;
+  }
 
-.button:hover {
-  transform: scale(1.02);
+  &:hover {
+    transform: scale(1.02);
+  }
 }
