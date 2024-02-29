@@ -26,9 +26,9 @@
   line-height: 1;
 }
 .project-card {
+  filter: drop-shadow(2px 4px 6px black);
   &:hover {
     @include transform(scale(1.05));
-    filter: drop-shadow(2px 4px 6px black);
   }
   a {
     text-decoration: none;
