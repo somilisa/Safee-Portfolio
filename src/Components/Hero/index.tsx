@@ -24,7 +24,10 @@ function Hero({ title, isHero }: Props) {
             <div className="contact-intro">
               <p>Adesina Sofiat</p>
               {isHero && <p>Product (UI/UX) Designer</p>}
-              <a href="mailto: adesinasafee@gmail.com">
+              <a
+                href="mailto: adesinasafee@gmail.com"
+                className="link-underline"
+              >
                 adesinasafee@gmail.com
               </a>
             </div>
@@ -36,13 +39,20 @@ function Hero({ title, isHero }: Props) {
                   </div>
                 </li>
                 <li>
-                  <a href="behance.net/Safeeee">behance</a>
+                  <a href="behance.net/Safeeee" className="link-underline">
+                    behance
+                  </a>
                 </li>
                 <li>
-                  <a href="#">twitter</a>
+                  <a href="#" className="link-underline">
+                    twitter
+                  </a>
                 </li>
                 <li>
-                  <a href="https://ng.linkedin.com/in/sofiat-adesina-02546a241">
+                  <a
+                    href="https://ng.linkedin.com/in/sofiat-adesina-02546a241"
+                    className="link-underline"
+                  >
                     linkedIn
                   </a>
                 </li>

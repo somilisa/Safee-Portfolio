@@ -20,6 +20,7 @@ function Projects() {
               title="Grocery Shop App"
               description="Online app to shop/order groceries"
               imageUrl={project_1}
+              link="https://www.behance.net/gallery/184840191/Grocery-shopping-app-UI"
             />
 
             <Project
@@ -27,6 +28,7 @@ function Projects() {
               title="Album Cover"
               description="Design cover for music album"
               imageUrl={project_2}
+              link="https://www.behance.net/gallery/184842103/Album-Cover-UI"
             />
 
             <Project
@@ -34,6 +36,7 @@ function Projects() {
               title="Bank web design"
               description="Web design sample for bank site"
               imageUrl={project_3}
+              link="https://www.behance.net/gallery/187575239/Web-Design-for-Banking"
             />
 
             <Project
@@ -41,6 +44,7 @@ function Projects() {
               title="Bank app design"
               description="App design sample for bank"
               imageUrl={project_4}
+              link="https://www.behance.net/gallery/184841325/Finance-Manager-Application"
             />
 
             <Project
@@ -48,12 +52,14 @@ function Projects() {
               title="Koffeeland"
               description="Online app for coffee"
               imageUrl={project_5}
+              link="https://www.behance.net/gallery/184840299/Coffee-Ordering-app-UI"
             />
 
             <Project
               background="rgba(209, 83, 239, 0.15)"
               title="Payment checkout page"
               imageUrl={project_6}
+              link="https://www.behance.net/gallery/184840405/Checkout-page-UI"
             />
           </div>
         </div>
