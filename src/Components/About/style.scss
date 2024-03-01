@@ -32,12 +32,12 @@
   max-width: 443px;
   //   height: 448px;
   margin-bottom: 96px;
-}
-.profile-picture img {
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-  object-fit: contain;
+  & img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+  }
 }
 .contact-info {
   display: flex;
@@ -45,10 +45,8 @@
   align-items: flex-start;
   gap: 16px;
 }
-.contact-info.mobile-only {
-  margin-top: 25px;
-}
 .mobile-only {
+  margin-top: 25px;
   @media screen and (min-width: 687px) {
     display: none;
   }
