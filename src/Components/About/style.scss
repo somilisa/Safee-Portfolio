@@ -44,9 +44,11 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+  &.mobile-only {
+    margin-top: 25px;
+  }
 }
 .mobile-only {
-  margin-top: 25px;
   @media screen and (min-width: 687px) {
     display: none;
   }
